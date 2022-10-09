@@ -9,7 +9,7 @@ datasource db {
 }
 
 model Url{
-  id Int @id @default(autoincrement())
+  id Int @id 
   long_url String 
   short_url String
 }
