@@ -11,6 +11,9 @@
   justify-content: center;
   align-items: center;
 }
+.section{
+  text-align: center;
+}
 
 .footer {
   display: flex;
@@ -126,4 +129,9 @@
   .logo img {
     filter: invert(1);
   }
+}
+
+.Mui-active :hover{
+  color: green;
+  display: none;
 }
